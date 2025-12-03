@@ -1,4 +1,4 @@
-# Multi-stage Dockerfile for building and serving the FlowJob landing page
+# Multi-stage Dockerfile for building and serving the Jobeasy landing page
 
 FROM node:22-alpine AS builder
 WORKDIR /app

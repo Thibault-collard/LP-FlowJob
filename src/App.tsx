@@ -6,7 +6,7 @@ import {
   Plus,
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import logoFlowJob from "./flowjob-logo.png";
+import logoJobeasy from "./Jobeasy-logo.png";
 
 type PlanKey =
   | "standard_29"
@@ -26,22 +26,22 @@ const faqItems = [
     question:
       "Comment fonctionne le mode Approve First concrètement ?",
     answer:
-      "À chaque offre pertinente, FlowJob prépare la candidature (CV + lettre) et vous la présente dans votre espace. Vous validez, modifiez ou refusez en un clic. Rien n'est envoyé sans votre accord explicite.",
+      "À chaque offre pertinente, Jobeasy prépare la candidature (CV + lettre) et vous la présente dans votre espace. Vous validez, modifiez ou refusez en un clic. Rien n'est envoyé sans votre accord explicite.",
   },
   {
-    question: "Quels job boards sont couverts par FlowJob ?",
+    question: "Quels job boards sont couverts par Jobeasy ?",
     answer:
       "France : Indeed, Welcome to the Jungle, APEC, Pôle Emploi, LinkedIn (EasyApply). Suisse : JobUp.ch et jobs.ch. De nouvelles sources sont ajoutées régulièrement.",
   },
   {
     question: "L'essai nécessite une carte bancaire ?",
     answer:
-      "Non. L'essai gratuit de 7 jours ne nécessite aucune carte bancaire. Testez FlowJob en illimité puis décidez si vous souhaitez continuer.",
+      "Non. L'essai gratuit de 7 jours ne nécessite aucune carte bancaire. Testez Jobeasy en illimité puis décidez si vous souhaitez continuer.",
   },
   {
     question: "Que couvre la garantie 60 jours ?",
     answer:
-      "Si vous utilisez FlowJob activement pendant 60 jours (minimum 30 candidatures envoyées) et que vous n'obtenez aucun entretien, nous vous remboursons intégralement, sans questions.",
+      "Si vous utilisez Jobeasy activement pendant 60 jours (minimum 30 candidatures envoyées) et que vous n'obtenez aucun entretien, nous vous remboursons intégralement, sans questions.",
   },
   {
     question: "Puis-je annuler facilement ?",
@@ -51,7 +51,7 @@ const faqItems = [
   {
     question: "Mes données sont-elles sécurisées ?",
     answer:
-      "Vos données sont hébergées en Europe, chiffrées, et FlowJob est 100% conforme au RGPD. Vous pouvez exporter ou supprimer vos données à tout moment.",
+      "Vos données sont hébergées en Europe, chiffrées, et Jobeasy est 100% conforme au RGPD. Vous pouvez exporter ou supprimer vos données à tout moment.",
   },
   {
     question: "Comment fonctionne le tarif solidaire ?",
@@ -99,8 +99,8 @@ const App: React.FC = () => {
           <div className="nav-left">
             <div className="logo-wrapper">
               <img
-                src={logoFlowJob}
-                alt="FlowJob"
+                src={logoJobeasy}
+                alt="Jobeasy"
                 className="logo-image"
               />
               
@@ -117,7 +117,7 @@ const App: React.FC = () => {
               className="nav-cta"
               onClick={() => handleScrollToForm(selectedPlan)}
             >
-              Rejoindre la liste d&apos;attente
+              Rejoindre la liste d'attente
             </button>
           </div>
         </div>
@@ -133,16 +133,16 @@ const App: React.FC = () => {
             </div>
             <h1>
               Automatisez votre{" "}
-              <span className="highlight">recherche d&apos;emploi</span>
+              <span className="highlight">recherche d'emploi</span>
               <br />
               <span className="hero-caption">
                 (en gardant 100% du contrôle)
               </span>
             </h1>
             <p className="hero-subtitle">
-              FlowJob scanne les offres 24/7, personnalise vos candidatures et
+              Jobeasy scanne les offres 24/7, personnalise vos candidatures et
               prépare les envois pour vous. Vous gardez le contrôle, on
-              s&apos;occupe du reste.
+              s'occupe du reste.
             </p>
 
             <div className="trust-badges">
@@ -180,7 +180,7 @@ const App: React.FC = () => {
                 className="btn-primary"
                 onClick={() => handleScrollToForm(selectedPlan)}
               >
-                Rejoindre la liste d&apos;attente
+                Rejoindre la liste d'attente
                 <ArrowRight size={18} />
               </button>
               <a href="#comment-ca-marche" className="btn-secondary">
@@ -250,7 +250,7 @@ const App: React.FC = () => {
             </span>
             <h2 className="section-title">Simple, transparent, efficace</h2>
             <p className="section-subtitle">
-              En 5 étapes, FlowJob devient votre assistant de recherche d&apos;emploi
+              En 5 étapes, Jobeasy devient votre assistant de recherche d'emploi
               24/7.
             </p>
           </div>
@@ -258,7 +258,7 @@ const App: React.FC = () => {
             {[
               {
                 title: "Créez votre profil en 15 minutes",
-                text: "Importez votre CV ou remplissez votre profil. FlowJob comprend vos compétences, votre parcours et vos aspirations.",
+                text: "Importez votre CV ou remplissez votre profil. Jobeasy comprend vos compétences, votre parcours et vos aspirations.",
               },
               {
                 title: "Définissez vos critères précis",
@@ -266,7 +266,7 @@ const App: React.FC = () => {
               },
               {
                 title: "L'IA scanne et matche 24/7",
-                text: "FlowJob parcourt les principaux job boards en continu et sélectionne uniquement les offres pertinentes.",
+                text: "Jobeasy parcourt les principaux job boards en continu et sélectionne uniquement les offres pertinentes.",
               },
               {
                 title: "Vous validez en 1 clic",
@@ -319,7 +319,7 @@ const App: React.FC = () => {
             </div>
             <div className="pain-card glass">
               <div className="pain-icon">😔</div>
-              <h3>L&apos;épuisement et la démotivation</h3>
+              <h3>L'épuisement et la démotivation</h3>
               <p>
                 Après des semaines de recherche, la charge mentale pèse. Garder
                 le moral et la rigueur devient un vrai défi.
@@ -339,7 +339,7 @@ const App: React.FC = () => {
               Automatisez votre recherche sans perdre le contrôle
             </h2>
             <p className="section-subtitle">
-              FlowJob devient votre copilote pour postuler plus, mieux, et plus
+              Jobeasy devient votre copilote pour postuler plus, mieux, et plus
               vite.
             </p>
           </div>
@@ -366,7 +366,7 @@ const App: React.FC = () => {
               {
                 icon: "📊",
                 title: "Dashboard temps réel",
-                text: "Suivez l&apos;avancement de vos candidatures et vos statistiques.",
+                text: "Suivez l'avancement de vos candidatures et vos statistiques.",
                 badge: "Vue 360° de votre recherche",
               },
               {
@@ -399,14 +399,14 @@ const App: React.FC = () => {
           <div className="section-header">
             <span className="section-tag section-tag-green">📊 Les données</span>
             <h2 className="section-title">
-              Les chiffres qui montrent l&apos;intérêt d&apos;automatiser
+              Les chiffres qui montrent l'intérêt d'automatiser
             </h2>
           </div>
           <div className="testimonials">
             <div className="testimonial glass">
               <div className="testimonial-emoji">⏱️</div>
               <p className="testimonial-text">
-                Les chercheurs d&apos;emploi passent en moyenne{" "}
+                Les chercheurs d'emploi passent en moyenne{" "}
                 <strong>11 heures par semaine</strong> à postuler manuellement.
               </p>
               <span className="result-badge">Source : Pôle Emploi 2024</span>
@@ -415,7 +415,7 @@ const App: React.FC = () => {
               <div className="testimonial-emoji">📉</div>
               <p className="testimonial-text">
                 <strong>75% des CV</strong> sont filtrés par des ATS avant même
-                d&apos;être lus par un humain.
+                d'être lus par un humain.
               </p>
               <span className="result-badge">
                 Source : Harvard Business Review
@@ -425,7 +425,7 @@ const App: React.FC = () => {
               <div className="testimonial-emoji">🎯</div>
               <p className="testimonial-text">
                 Postuler dans les <strong>48 premières heures</strong> triple
-                vos chances d&apos;être contacté.
+                vos chances d'être contacté.
               </p>
               <span className="result-badge">
                 Source : LinkedIn Talent Solutions
@@ -445,7 +445,7 @@ const App: React.FC = () => {
               <div className="roi-item">
                 <div className="roi-value roi-bad">~450€</div>
                 <div className="roi-label">
-                  Coût d&apos;opportunité
+                  Coût d'opportunité
                   <br />
                   par mois de recherche
                 </div>
@@ -453,7 +453,7 @@ const App: React.FC = () => {
               <div className="roi-item">
                 <div className="roi-value roi-good">29€</div>
                 <div className="roi-label">
-                  FlowJob
+                  Jobeasy
                   <br />
                   par mois
                 </div>
@@ -461,7 +461,7 @@ const App: React.FC = () => {
             </div>
             <div className="roi-conclusion">
               <strong>
-                FlowJob se rembourse dès la première semaine gagnée.
+                Jobeasy se rembourse dès la première semaine gagnée.
               </strong>
               <br />
               Trouvez 4 semaines plus vite, économisez environ 1800€ net.
@@ -524,7 +524,7 @@ const App: React.FC = () => {
                 className="pricing-cta primary"
                 onClick={() => handleScrollToForm("standard_29")}
               >
-                Rejoindre la liste d&apos;attente Standard
+                Rejoindre la liste d'attente Standard
               </button>
             </div>
 
@@ -567,7 +567,7 @@ const App: React.FC = () => {
                 className="pricing-cta secondary"
                 onClick={() => handleScrollToForm("premium_49")}
               >
-                Rejoindre la liste d&apos;attente Premium
+                Rejoindre la liste d'attente Premium
               </button>
             </div>
           </div>
@@ -584,8 +584,8 @@ const App: React.FC = () => {
             <div className="guarantee-icon">🛡️</div>
             <h4>Garantie 60 jours - Satisfait ou remboursé</h4>
             <p>
-              Pas d&apos;entretien obtenu dans les 60 premiers jours
-              d&apos;utilisation active ? Nous vous remboursons intégralement.
+              Pas d'entretien obtenu dans les 60 premiers jours
+              d'utilisation active ? Nous vous remboursons intégralement.
               Sans question, sans condition cachée.
             </p>
           </div>
@@ -598,7 +598,7 @@ const App: React.FC = () => {
           <div className="urgency-banner glass">
             <span className="spots">
               ⚡ Plus que <span id="spots-left">{spotsLeft}</span> places sur
-              la liste d&apos;attente prioritaire
+              la liste d'attente prioritaire
             </span>
             <p>-30% à vie pour les premiers inscrits</p>
           </div>
@@ -608,7 +608,7 @@ const App: React.FC = () => {
               <div className="early-bird-badge">
                 🎁 Offre early-bird : -30% à vie pour les 100 premiers inscrits
               </div>
-              <h2>Rejoignez la liste d&apos;attente</h2>
+              <h2>Rejoignez la liste d'attente</h2>
             </div>
             <iframe
               className="airtable-embed"
@@ -621,7 +621,7 @@ const App: React.FC = () => {
                 border: "1px solid #ccc",
                 borderRadius: "12px",
               }}
-              title="Formulaire FlowJob - Liste d'attente"
+              title="Formulaire Jobeasy - Liste d'attente"
             />
           </div>
         </div>
@@ -679,7 +679,7 @@ const App: React.FC = () => {
       {/* Mobile sticky CTA */}
       <div className="floating-cta">
         <button onClick={() => handleScrollToForm(selectedPlan)}>
-          🚀 Rejoindre la liste d&apos;attente
+          🚀 Rejoindre la liste d'attente
           <ChevronRight size={18} />
         </button>
       </div>
