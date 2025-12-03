@@ -6,7 +6,7 @@ import {
   Plus,
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import logoJobeasy from "./Jobeasy-logo.png";
+import logoJobeasy from "./jobeasy-logo.png";
 
 type PlanKey =
   | "standard_29"
