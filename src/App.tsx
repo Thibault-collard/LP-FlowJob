@@ -488,7 +488,7 @@ const App: React.FC = () => {
               <div className="pricing-ribbon">Plus populaire</div>
               <div className="pricing-name">Standard</div>
               <div className="pricing-price">
-                29€<span>/mois</span>
+                15€<span>/mois</span>
               </div>
               <div className="pricing-trial">🎁 7 jours gratuits</div>
               <p className="pricing-desc">Pour une recherche efficace</p>
@@ -531,7 +531,7 @@ const App: React.FC = () => {
             <div className="pricing-card glass">
               <div className="pricing-name">Premium</div>
               <div className="pricing-price">
-                49€<span>/mois</span>
+                25€<span>/mois</span>
               </div>
               <div className="pricing-trial">🎁 7 jours gratuits</div>
               <p className="pricing-desc">Pour une recherche intensive</p>
